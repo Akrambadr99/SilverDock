@@ -75,7 +75,7 @@ export function createLargeWorkspaceFixtures(
   const ids = new DeterministicIdGenerator(configuration.namespace)
   const workspace = {
     id: ids.workspace('operations'),
-    name: 'Teamivo Large Workspace',
+    name: 'SilverDock Large Workspace',
     slug: 'atlas-large-operations',
     createdAt: baseTime,
   }

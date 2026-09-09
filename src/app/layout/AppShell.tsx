@@ -35,7 +35,7 @@ export function AppShell() {
         <p className="page-eyebrow">Session security</p>
         <h1>Workspace access changed</h1>
         <p>
-          Your membership is no longer active. Teamivo removed workspace data
+          Your membership is no longer active. SilverDock removed workspace data
           from the active view.
         </p>
         <button
@@ -57,7 +57,7 @@ export function AppShell() {
         <p className="page-eyebrow">Session security</p>
         <h1>Permissions could not be verified</h1>
         <p>
-          Teamivo removed workspace data from this view until your access can
+          SilverDock removed workspace data from this view until your access can
           be confirmed.
         </p>
         <button
@@ -80,11 +80,11 @@ export function AppShell() {
       </a>
 
       <aside className="app-sidebar">
-        <Link className="app-brand" to="/" aria-label="Teamivo dashboard">
+        <Link className="app-brand" to="/" aria-label="SilverDock dashboard">
           <span className="app-brand__mark" aria-hidden="true">
-            TIv
+            SD
           </span>
-          <span>Teamivo</span>
+          <span>SilverDock</span>
         </Link>
 
         <PrimaryNavigation />
@@ -111,7 +111,7 @@ export function AppShell() {
         <header className="app-topbar">
           <div>
             <p className="app-topbar__label">Move forward together</p>
-            <p className="app-topbar__name">Teamivo Workspace</p>
+            <p className="app-topbar__name">SilverDock Workspace</p>
           </div>
           <GlobalSearch />
           <NotificationCenter />

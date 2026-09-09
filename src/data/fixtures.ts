@@ -19,7 +19,7 @@ export function createAtlasFixtures(
 
   const workspace = {
     id: ids.workspace('operations'),
-    name: 'Teamivo Workspace',
+    name: 'SilverDock Workspace',
     slug: 'atlas-operations',
     createdAt,
   }
